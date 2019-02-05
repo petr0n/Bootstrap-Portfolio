@@ -78,14 +78,21 @@ a {
 /** portfolio **/
 .portfolio-tile {
     background-color: #F8FFFF;
-    height: 300px;
+    height: 400px;
+    padding-top: 300px;
     width: 100%;
+    margin-bottom: 20px;
 }
+
 .portfolio-tile--title {
-    
+    background-color: rgba(255, 255, 255, .6);
+    display: block;
+    padding: 10px;
 }
-.portfolio-tile--desc {
+.portfolio-tile--title:hover {
+    background-color: white;
 }
+
 
 /** contact **/
 .contact-form {
