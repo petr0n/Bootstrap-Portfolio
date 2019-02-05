@@ -1,14 +1,5 @@
 /** styles.css **/
 
-/* 
-#151e3f dark blue
-#030027 rich black
-#f2f3d9 beige
-#dc9e82 tumbleweed
-#c16e70 rose gold 
-
-#BFDBE6 pale blue
-*/
 
 
 /** html elements **/
@@ -19,6 +10,9 @@ h1, h2, h3, h4 {
 }
 a {
     color: #c16e70;
+}
+p, div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /** nav **/
