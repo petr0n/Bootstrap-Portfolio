@@ -11,6 +11,9 @@ h1, h2, h3, h4 {
 a {
     color: #c16e70;
 }
+a:hover {
+    text-decoration: none;
+}
 p, div {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -79,10 +82,14 @@ p, div {
 }
 
 .portfolio-tile--title {
-    background-color: rgba(255, 255, 255, .6);
+    background-color: rgba(255, 255, 255, .75);
     display: block;
     padding: 10px;
 }
+a.portfolio-tile--title {
+    color:#23177b;
+}
+
 .portfolio-tile--title:hover {
     background-color: white;
 }
